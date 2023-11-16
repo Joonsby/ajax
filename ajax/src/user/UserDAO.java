@@ -53,6 +53,6 @@ public class UserDAO {
 		} catch(Exception e) {
 			e.printStackTrace();
 		}
-		return -1; // 데이터베이스 오류
+		return -1;
 	}
 }
